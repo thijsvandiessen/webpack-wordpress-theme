@@ -1,0 +1,46 @@
+@import './styles/normalize.scss';
+@import './styles/typography.scss';
+@import './styles/elements.scss';
+@import './styles/forms.scss';
+@import './styles/links.scss';
+@import './styles/menus.scss';
+@import './styles/accessibility.scss';
+@import './styles/alignments.scss';
+@import './styles/clearings.scss';
+@import './styles/widgets';
+@import './styles/posts_and_pages.scss';
+@import './styles/comments.scss';
+@import './styles/infinite_scroll.scss';
+@import './styles/media.scss';
+@import './styles/captions.scss';
+@import './styles/galleries.scss';
+@import './styles/woocommerce.scss';
+
+:root {
+  --primary-color: blue;
+}
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+	## Images
+--------------------------------------------------------------*/

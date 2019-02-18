@@ -1,0 +1,61 @@
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0 3em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 2em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+
+.site-title,
+.site-description,
+.main-navigation,
+.comments-area,
+.post-navigation,
+.entry-title,
+.page-title,
+.archive-description,
+.entry-meta,
+.entry-footer,
+.posts-navigation,
+.site-info,
+.entry-content > :not(.alignwide):not(.alignfull){
+	max-width: 45rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.entry-content .alignwide {
+	max-width: 60rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.entry-footer {
+	margin-top: 2em;
+}
+
+.entry-footer .cat-links,.comments-link,.edit-link {
+	margin-right: 1em;
+}
