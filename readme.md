@@ -1,6 +1,6 @@
-# My first wordpress theme
+# Webpack & Docker wordpress theme development
 
-This template uses webpack.
+This template has a webpack config and a docker-compose config to make development easy.
 
 ## install, run and build
 
